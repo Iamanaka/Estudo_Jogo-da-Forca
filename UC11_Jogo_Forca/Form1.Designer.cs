@@ -48,6 +48,7 @@
             this.textBoxLETRA = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.buttonTESTAR = new System.Windows.Forms.Button();
+            this.labelX = new System.Windows.Forms.Label();
             this.panelCONFIG.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFORCA)).BeginInit();
@@ -56,13 +57,14 @@
             // panelCONFIG
             // 
             this.panelCONFIG.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelCONFIG.Controls.Add(this.labelX);
             this.panelCONFIG.Controls.Add(this.label3);
             this.panelCONFIG.Controls.Add(this.buttonINICIA);
             this.panelCONFIG.Controls.Add(this.textBoxPALAVRASECRETA);
             this.panelCONFIG.Controls.Add(this.label2);
             this.panelCONFIG.Controls.Add(this.textBoxNOMEJOGADOR);
             this.panelCONFIG.Controls.Add(this.label1);
-            this.panelCONFIG.Location = new System.Drawing.Point(133, 36);
+            this.panelCONFIG.Location = new System.Drawing.Point(-3, 177);
             this.panelCONFIG.Name = "panelCONFIG";
             this.panelCONFIG.Size = new System.Drawing.Size(505, 135);
             this.panelCONFIG.TabIndex = 1;
@@ -181,7 +183,6 @@
             this.labelPONTOS.TabIndex = 7;
             this.labelPONTOS.Text = "100";
             this.labelPONTOS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.labelPONTOS.Click += new System.EventHandler(this.labelPONTOS_Click);
             // 
             // labelCONFIG
             // 
@@ -261,6 +262,18 @@
             this.buttonTESTAR.UseVisualStyleBackColor = false;
             this.buttonTESTAR.Click += new System.EventHandler(this.buttonTESTAR_Click);
             // 
+            // labelX
+            // 
+            this.labelX.AutoSize = true;
+            this.labelX.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX.ForeColor = System.Drawing.Color.Maroon;
+            this.labelX.Location = new System.Drawing.Point(481, 8);
+            this.labelX.Name = "labelX";
+            this.labelX.Size = new System.Drawing.Size(14, 15);
+            this.labelX.TabIndex = 6;
+            this.labelX.Text = "X";
+            this.labelX.Click += new System.EventHandler(this.labelX_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -309,6 +322,7 @@
         private System.Windows.Forms.TextBox textBoxLETRA;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button buttonTESTAR;
+        private System.Windows.Forms.Label labelX;
     }
 }
 
